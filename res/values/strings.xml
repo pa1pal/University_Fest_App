@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="app_name">Antardhvani 2014</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="flowerhead">University Flower Show will be integrated with the Antardhvani Cultural Programmes</string>
+    <string name="painting">On-the-spot Painting Competition</string>
+    <string name="school">SCHOOL : February 8,2014 at 10:00 am at the Sports Complex (University Stadium), University of Delhi, Delhi - 110007.</string>
+    <string name="entry">Entry Form</string>
+    <string name="college">COLLEGE (Under Graduate) : February 7, 2014 at 10:00 am at the Sports Complex (University stadium) , University of Delhi, Delhi - 110007</string>
+    <string name="contact">Contact Details</string>
+    <string name="stall">Stall Booking</string>
+    <string name="good">Good Practice Awards</string>
+    <string name="a">Theme of Award of Good Practice</string>
+    <string name="b">Rules and Guidelines</string>
+    <string name="c">Guidelines and judging</string>
+    <string name="tendor">Tendor for Light and sound Show</string>
+    <string name="cor">Corrigendum 1</string>
+    <string name="cord">Corrigendum 2</string>
+    <string name="notification">Notification - Committee on Antardhvani 2014</string>
+    <string name="In">Innovation Projects 2013-14</string>
+    <string name="dev">Developer</string>
+    <string name="exit">EXIT</string>
+    <string name="admob_id">a152d4e01312987</string>
+
+</resources>

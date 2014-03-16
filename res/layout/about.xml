@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/eventsScroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:gravity="top"
+        android:scrollbarStyle="insideOverlay"
+        android:transcriptMode="alwaysScroll" >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top" 
+        android:background="#000000">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#7F462C"
+        android:textSize="20sp"
+        android:text="Happiness is when what you think, what you say, and what you do are in harmony. -Mahatma Gandh"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:textSize="25sp"
+        android:textColor="#810541"
+        android:text="‘Antardhvani’ literally translated refers to the voice within, the voice that expresses with truth and passion what the heart deeply desires. The name given by the Vice Chancellor, Professor Dinesh Singh, to the annual cultural festival of the University of Delhi, inspires every student to ‘march to the drumbeat of his or her inner calling.’
+
+The purpose of the festival is to bring the university community together in a shared enterprise that celebrates creativity, talent, innovations, experiments, achievements and unique features of this large university spread through the national capital region of Delhi."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:textSize="25sp"
+        android:text="The DU Antardhvani Cultural Festival was conceptualized and started in 2011 and has become the showpiece event of India’s highest rated university. In the brief duration of two years it has emerged as the medium for profiling the university’s cultural, sports and academic achievements. The last Antardhvani attracted about 1, 50,000 footfalls in three days."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#810541" />
+
+    </RelativeLayout>
+   </ScrollView>
+</FrameLayout>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textColor="#990012"
+        android:layout_gravity="center"
+        android:text="@string/good"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#306754"
+        android:textSize="20sp"
+        android:text="The theme for Antardhvani 2014 “Good Practices” awards to Colleges would be the Four Year Undergraduate Programme. Participants will be expected to present various facets of the First Year Classroom such as innovations in teaching, interactive pedagogy, projects, and student presentations. Additional points will be given for College website, technology use, access to students with disability, upkeep of premises and gardens, eco-friendly waste disposal/write-offs, among other factors. Departments of the University of Delhi will be expected display “Good Practices” in teaching, research publications, research projects, technology use, access and facilities for students with disability, physical upkeep of the Department premises, among other factors."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colleges"
+        android:textColor="#306754"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     <Button
+        android:id="@+id/theme"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a" />
+      <Button
+        android:id="@+id/rules"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b" />
+       <Button
+        android:id="@+id/judging"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c" />
+       <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#306754"
+        android:text="Post Graduate Department, Institutes and Centre"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+       <Button
+        android:id="@+id/rulesand"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b" />
+  </LinearLayout>
+    </ScrollView>
+
+    
+   
+</LinearLayout>

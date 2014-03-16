@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="#000000">
+
+    <ScrollView
+        android:id="@+id/eventsScroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:gravity="top"
+        android:scrollbarStyle="insideOverlay"
+        android:transcriptMode="alwaysScroll" >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:gravity="top" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#2B547E"
+            android:text="Day wise schedule for all competitive events"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="35sp" />
+
+        <ImageButton
+            android:id="@+id/day1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/blue_button" />
+         <ImageButton
+            android:id="@+id/day2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="260dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skyblue_button" />
+         <ImageButton
+            android:id="@+id/day3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="390dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/yellow_button" />
+         
+
+    </RelativeLayout>
+   </ScrollView>
+</FrameLayout>
+

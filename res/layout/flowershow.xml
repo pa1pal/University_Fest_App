@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             >
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8C001A"
+        android:textSize="25sp"
+        android:text="@string/flowerhead"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E8ADAA"
+        android:textSize="25sp"
+        android:text="The tradition of holding a spectacular FLOWER SHOW annually continues with its practice of inviting competitive and non-competitive entries from all its Gardens and Colleges. It’s an occasion to honour our teams of horticulturalists and those who oversee their work. Bonsai shows and gardening material will be on display and sale."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4863A0"
+        android:textSize="25sp"
+        android:text="@string/painting"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#483C32"
+        android:textSize="25sp"
+        android:text="@string/school"
+        android:textAppearance="?android:attr/textAppearanceMedium" />      
+     <Button
+        android:id="@+id/entry"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:text="@string/entry" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#483C32"
+        android:textSize="25sp"
+        android:text="@string/college"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Button
+        android:id="@+id/entry2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:text="@string/entry" />
+      <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#800517"
+        android:textSize="25sp"
+        android:text="*** The last date for receipt of entry forms (copy enclosed), duly filled and forwarded by the Principal of the School or College along with entry fee ( Rs. 20/- per participant) is February 6, 2014"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+      <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4863A0"
+        android:textSize="25sp"
+        android:text="@string/contact"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+       <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#483C32"
+        android:textSize="25sp"
+        android:text="Dr. Soma M. Ghorai, Convener, Painting Competion (Contact No. 9810466756)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#483C32"
+        android:textSize="25sp"
+        android:text="Mr. Suraj Dabas, Horticulturist, Garden Committee ( Tel. No. 27662846, Mob. - 9999278080)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#800517"
+        android:textSize="25sp"
+        android:text="NOTE : The theme of the painting will be given on the spot.The result will be announced on the day of Flower Show to be held on Friday, February 14, 2014 at 3:00 P.M. at sports Complex (University Stadium), University of Delhi, Delhi - 110007"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#38ACEC"
+        android:textSize="25sp"
+        android:text="@string/stall"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+         <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#483C32"
+        android:textSize="25sp"
+        android:text="Charges : Rs. 5,000/- per stall"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+           <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Last Date: February 10, 2014"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+           <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#38ACEC"
+        android:textSize="25sp"
+        android:text="@string/contact"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#347C17"
+        android:textSize="25sp"
+        android:text="Office of Garden Committee (Tel. No. 27662846, Mob- 9999278080)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#347C17"
+        android:textSize="25sp"
+        android:text="NOTE : Stall will be booked for sale of garden tools/potted plants/ seeds etc. No stall will be booked for games and food items."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#347C17"
+        android:textSize="25sp"
+        android:text="Award of Special merit- Best Mali"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4863A0"
+        android:textSize="25sp"
+        android:text="Last Date for receiving nominations: February 3,2014"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+      <Button
+        android:id="@+id/details"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:text="Details" />
+        </LinearLayout>
+    </ScrollView>  
+</LinearLayout>

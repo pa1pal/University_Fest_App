@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25383C"
+    android:padding="25dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VENUE"
+        android:textColor="#E5E4E2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports Complex,
+University of Delhi, North Campus
+Delhi - 110 007"
+		android:textColor="#BDEDFF"
+		android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="CONNECT WITH US"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E5E4E2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: infocentre@du.ac.in"
+        android:textColor="#BDEDFF"
+		android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.facebook.com/universityofdelhi"
+        android:textColor="#BDEDFF"
+		android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUR ADDRESS"
+        android:layout_marginTop="8dp"
+        android:textColor="#E5E4E2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Antardhvani Secretariat at University Information Centre (UIC)
+Contact No.: 011-27006900 (all working days 9.00am to 5.00 pm)"
+		android:textColor="#BDEDFF"
+		android:textSize="18sp"  />
+
+</LinearLayout>

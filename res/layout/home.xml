@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        >
+
+    <ScrollView
+        android:id="@+id/eventsScroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:gravity="top"
+        android:scrollbarStyle="insideOverlay"
+        android:transcriptMode="alwaysScroll" >
+    <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="500dp"
+          android:background="@drawable/back"
+          android:gravity="top" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#151B54"
+            android:layout_marginTop="121dp"
+            android:text="Welcome to ANTARDHVANI" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:textColor="#151B54"
+            android:text="Competitive Events" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:textColor="#151B54"
+            android:text="Non-Competitive Events" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:textColor="#151B54"
+            android:text="Special Attraction" />
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button4"
+            android:textColor="#800517"
+            android:text="REGISTRATIONS :
+last date 30th Jan, 2014" />
+         <Button
+            android:id="@+id/button13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button12"
+            android:textColor="#151B54"
+            android:text="Rules for events" />
+        
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button13"
+            android:textColor="#151B54"
+            android:text="Flower Show" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button5"
+            android:textColor="#151B54"
+            android:text="Good Practice" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button6"
+            android:textColor="#151B54"
+            android:text="Schedule" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button7"
+            android:layout_below="@+id/button7"
+            android:textColor="#151B54"
+            android:text="Other" />
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button8"
+            android:textColor="#151B54"
+            android:text="Contact Us" />
+         <Button
+            android:id="@+id/button10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button9"
+            android:textColor="#151B54"
+            android:text="Map" />
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button10"
+            android:background="#7D0552"
+            android:textColor="#FCDFFF"
+            android:text="LATEST UPDATES" />
+       
+       
+     
+ </RelativeLayout>
+ </ScrollView>  
+</FrameLayout>
